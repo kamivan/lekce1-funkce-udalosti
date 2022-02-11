@@ -1,6 +1,11 @@
 // tady je místo pro náš program
 
-document.querySelector("#vysledek").innerHTML = secti(4, 5);
+
+
+function result() {
+  let result = document.querySelector("#vysledek").innerHTML = secti(4, 5);
+  
+}
 
 /**
  * Sečte dvě čísla na vstupu a vrátí výsledek
@@ -18,4 +23,12 @@ function secti(a, b) {
  */
 function upozorni() {
   alert("Gratulace, právě jsi spustila tuto funkci!");
+  console.log(upozorni);
+  document.querySelector(".ctverecek").innerHTML = "Gratulace!";
 }
+
+function colorChange() {
+  let square = document.querySelector(".ctverecek");
+  square.style.backgroundColor = "green"
+}
+
