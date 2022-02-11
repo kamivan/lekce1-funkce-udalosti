@@ -23,7 +23,7 @@ function secti(a, b) {
  */
 function upozorni() {
   alert("Gratulace, právě jsi spustila tuto funkci!");
-  console.log(upozorni);
+  console.log("Gratulace, právě jsi spustila tuto funkci!");
   document.querySelector(".ctverecek").innerHTML = "Gratulace!";
 }
 
